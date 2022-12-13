@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag</title>
+    <link rel="stylesheet" href="css/File.css">
+</head>
+
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Enter your personal detail</legend>
+            <label>Name</label> <input type="text" name="fname" value="" placeholder="Enter your Name" /> <br><br>
+
+            <label>password</label> <input type="password" name="" /> <br><br>
+
+            <label>Gender</label> <input type="radio" name="Gender" id="male" /><label for="male">Male</label> <input
+                type="radio" name="Gender" id="female" /><label for="female">FeMale</label> <br><br>
+
+            <label>Hobbies</label> <input type="checkbox" name="hobby" id="music" /><label for="music">music</label>
+            <input type="checkbox" name="hobby" id="football" /><label for="football">football</label> <br><br>
+
+            <label>Massage</label> <textarea name="" id="" cols="60" rows="10">yahoo baba</textarea> <br><br>
+
+            <label>country</label> <select name="" id="" size="3" multiple>
+                <option value="in">india</option>
+                <option value="pk">pakistan</option>
+                <option value="ne">nepal</option>
+                <option value="cn" selected>china</option>
+            </select>
+            <br><br>
+            <label>Cars</label> <select>
+                <optgroup label="Toyota">
+                    <option>Innova</option>
+                    <option>Etios</option>
+                    <option>Fortuner</option>
+                </optgroup>
+                <optgroup label="Renault">
+                    <option>Kwid</option>
+                    <option>Duster</option>
+                    <option>Captur</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label>Cars</label> <input list="cars">
+            <datalist id="cars">
+                <option value="Innova">
+                <option value="Kwid">
+                <option value="Etios">
+                <option value="Swift">
+                <option value="Duster">
+            </datalist>
+            <br><br>
+            <label>Upload File</label> <input type="File" accept="vedio/*" name="" />
+            <br><br>
+            <input type="submit" value="Save" />
+
+            <input type="reset" />
+
+            <input type="image" src="images/owaise bro.jpg" width="20px" alt="submit button" />
+        </fieldset>
+    </form>
+</body>
+
+</html>
